@@ -1,8 +1,9 @@
 # hmh
 TechnicalTest
 
-To run tests install maven go to root folder and run:
-	- mvn clean install
+To run tests:
+	- download java jdk1.8.0_202 https://www.oracle.com/cis/java/technologies/javase/javase8-archive-downloads.html
+	- install maven go to root folder and run: mvn clean install
 	- https://maven.apache.org/install.html use guide to install maven
 	
 Tests related:

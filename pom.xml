@@ -14,7 +14,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <slf4j.version>1.7.36</slf4j.version>
         <testNg.version>7.5</testNg.version>
-        <sureFire.version>2.20.1</sureFire.version>
+        <sureFire.version>2.22.1</sureFire.version>
         <maven-compiler.version>3.7.0</maven-compiler.version>
         <assertj.version>3.22.0</assertj.version>
         <jackson-databind.version>2.13.3</jackson-databind.version>
@@ -98,6 +98,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler.version}</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
